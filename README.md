@@ -22,7 +22,7 @@ LICENSE: license terms for text and code
 README.md: this file
 run_analysis.R: R script to transform raw data set in a tidy one
 
-HOW TO CREATE THE TIDY DATA SET
+How to create the tidy data set
 1) Download the data source and put into a folder on your local drive. 
 2) Put run_analysis.R in the parent folder of UCI HAR Dataset, then set it as your working directory using setwd() function in RStudio.
 3) Run source("run_analysis.R"), then it will generate a new file tiny_data.txt in your working directory.
